@@ -11,6 +11,7 @@ import java.util.List;
 // можно по названию если понятное
 // через @Query
 
+
 @Repository
 // указываем с какой сущьностью будем работаь и какого типа первичный ключ<Product, Long>
 public interface ProductRepository extends JpaRepository<Product, Long> {

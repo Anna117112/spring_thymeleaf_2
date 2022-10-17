@@ -3,6 +3,7 @@ angular.module('app', []).controller('indexController', function ($scope, $http)
 
     // console.log(123);
 
+
     $scope.loadProducts = function () {
         $http.get(contextPath + '/products')
             .then(function (response) {
