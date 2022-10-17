@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class GlobalExceptionHandler {
 
 
+
     //хотитм перехватить исключение
     @ExceptionHandler
     // перехватываем исключение ResourceNotFoundException e или его наследников

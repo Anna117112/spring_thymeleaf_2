@@ -5,6 +5,7 @@ import jdk.jfr.DataAmount;
 import javax.persistence.*;
 
 
+
 @Entity
 @Table(name = "products")
 
